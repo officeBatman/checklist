@@ -13224,7 +13224,7 @@ var $author$project$Main$viewTask = F2(
 				[
 					$mdgriffith$elm_ui$Element$Border$color($author$project$Main$colors.saturated),
 					$mdgriffith$elm_ui$Element$Border$width(5),
-					$mdgriffith$elm_ui$Element$Border$rounded(5),
+					$mdgriffith$elm_ui$Element$Border$rounded(25),
 					$mdgriffith$elm_ui$Element$padding(5),
 					$mdgriffith$elm_ui$Element$spacing(5),
 					$mdgriffith$elm_ui$Element$Background$color($author$project$Main$colors.light),

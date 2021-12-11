@@ -157,7 +157,7 @@ viewTask index task =
     El.row
         [ Border.color colors.saturated
         , Border.width 5
-        , Border.rounded 5
+        , Border.rounded 25
         , El.padding 5
         , El.spacing 5
         , Background.color colors.light
