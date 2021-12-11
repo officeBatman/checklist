@@ -1,14 +1,14 @@
 # Checklist
-[Screenshot](screenshot.jpg)
+<img src="screenshot.jpg" width="300">
 
 An Elm app checklist with persistence and a sleek UI
 
 Check it out at https://officebatman.github.io/checklist/
 
 ## Features
-- Create and delete tasks
-- Check/Uncheck them in the button on the left
-- Get back to them after you close your browser
+- **Create** and **delete** tasks
+- **Check/Uncheck** them in the button on the left
+- **Get back to them** after you close your browser
 - A cool UI
 
 ## Todo
