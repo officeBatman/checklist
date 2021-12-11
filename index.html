@@ -12,7 +12,7 @@
 
 <script>
 // Extract the stored data from previous sessions.
-var storedData = localStorage.getItem('elm-model');
+var storedData = localStorage.getItem('elm-checklist-model');
 var flags = storedData ? JSON.parse(storedData) : null;
 
 // Load the Elm app, passing in the stored data.
@@ -24,7 +24,7 @@ var app = Elm.Main.init({
 // Listen for commands from the `setStorage` port.
 // Turn the data to a string and put it in localStorage.
 app.ports.setStorage.subscribe(function(state) {
-    localStorage.setItem('elm-model', JSON.stringify(state));
+    localStorage.setItem('elm-checklist-model', JSON.stringify(state));
 });
 </script>
 
